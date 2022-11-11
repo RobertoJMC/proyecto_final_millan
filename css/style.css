@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button
+{ 
+  -webkit-appearance: none; 
+  margin: 0;
+}
+
+.titulo{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(158, 56, 253);
+    color: white;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(181, 113, 245);
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+.botonRegistrar{
+    margin-right: 10px;
+    background-color: rgb(55, 55, 177);
+    color: white;
+    border-radius: 5px;
+}
+
+.botonRegistrar:hover{
+    background-color: rgb(27, 27, 177) ;
+}
+
+.botonIngresar{
+    margin-left: 10px;
+    background-color: rgb(55, 55, 177);
+    color: white;
+    border-radius: 5px;
+}
+
+.botonIngresar:hover{
+    background-color: rgb(27, 27, 177) ;   
+}
+
+#ingresaUsuario{
+    background-color: rgb(55, 55, 177);
+    color: white;
+    border-radius: 5px;   
+}
+
+#ingresaUsuario:hover{
+    background-color: rgb(27, 27, 177) ;   
+}
+
+#borraUsuario:hover{
+    background-color: rgb(27, 27, 177) ;   
+}
+
+#borraUsuario{
+    background-color: rgb(55, 55, 177);
+    color: white;
+    border-radius: 5px;   
+}
+
+#registraUsuario{
+    background-color: rgb(55, 55, 177);
+    color: white;
+    border-radius: 5px;   
+}
+
+#registraUsuario:hover{
+    background-color: rgb(27, 27, 177) ;   
+}
+
+#borrarRegistrar{
+    background-color: rgb(55, 55, 177);
+    color: white;
+    border-radius: 5px;   
+}
+
+#borrarRegistrar:hover{
+    background-color: rgb(27, 27, 177) ;   
+}
+
+main{
+    background-color: rgb(223, 188, 255);
+}
+
+label{
+    background-color: rgb(181, 113, 245);
+    border-radius: 5px;
+    color: white;
+}
+
+main section{
+    margin: 0px;
+    padding: 0px;
+}
+
+.formIngresar{
+    display: none;
+}
+.formRegistrar{
+    display: none;
+}
+
+.formIngresar2{
+    display: flex;
+    justify-content: center;
+}
+
+.formIngresar2 form{
+    width: 40%;
+    text-align: center;
+}
+
+.formRegistrar2{
+    display: flex;
+    justify-content: center;
+}
+
+.formRegistrar2 form{
+    width: 40%;
+    text-align: center;
+}
+
+.carrusel{
+    display: block;
+}
+
+.carrusel2{
+    display: none;
+}
+
+.menu{
+    display: none;
+}
+
+.menu2{
+    display: flex;
+    justify-content: center;
+}
+
+.menu2 form{
+    width: 40%;
+    text-align: center; 
+}
+
+.menuIngresarDinero{
+    display: none;
+}
+
+.menuIngresarDinero2{
+    display: flex;
+    justify-content: center;
+}
+
+.menuIngresarDinero2 form{
+    width: 40%;
+    text-align: center;
+}
+
+.transferirContactoNuevo{
+    display: none;
+}
+
+.transferirContactoNuevo2{
+    display: flex;
+    justify-content: center;
+}
+
+.transferirContactoNuevo2 form{
+    width: 40%;
+    text-align: center;
+}
+.agregarContactoNuevo{
+    display: none;
+}
+
+.agregarContactoNuevo2{
+    display: flex;
+    justify-content: center;
+}
+
+.agregarContactoNuevo2 form{
+    width: 40%;
+    text-align: center;
+}
+
+.tituloLista{
+    text-align: center;
+}
+
+.listContact{
+    display: none;
+}
+
+.listContact2{
+    display: block;
+}
+
+.lista{
+    text-align: center;
+}
+
+.botonLista{
+    text-align: center;
+}
+
+.boton{
+        background-color: rgb(55, 55, 177);
+        color: white;
+        border-radius: 5px;
+}
+.boton:hover{
+    background-color: rgb(55, 55, 177);;
+    height: 60%;
+    width: 60%;   
+}
+
+footer{
+    background-color: rgb(158, 56, 253);
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
